@@ -1,0 +1,51 @@
+.header{
+    text-align: center;
+}
+.header .title{
+    font-size: 40px;
+}
+
+.header > img{
+    position: relative;
+    bottom: 12px;
+    left: 170px;
+    border: solid black 1px;
+    
+}
+
+.details {
+    display: flex;
+    flex-wrap: wrap;
+
+
+
+}
+.details > p{
+    padding-left:10%;
+    padding-right: 10%;
+    width: 15%;
+    height: 50%;
+    margin-left: 10%;
+    line-height: 2px;
+    text-align: center;
+
+
+}
+.header #country{
+    position: relative;
+    top: 45px;
+    font-size: 25px;
+}
+
+.select_Country{
+    position: relative;
+    text-align: center;
+    bottom: 110px;
+
+}
+
+.btn{
+    padding-top: 10%;
+    float: right;
+    margin-right: 10%;
+}

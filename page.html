@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="page.css">
+</head>
+<body>
+    <section class="header">
+        <h1 class = "title">Weather</h1>
+        <h2>Select country</h2>
+        <p id="country">Country</p> 
+        <img
+            src="https://www.macmillandictionary.com/us/external/slideshow/full/Grey_full.png"
+            id = "country_Flag"
+            width="70" 
+         >
+    </section>
+
+    <div class="select_Country">
+        <!--
+            Adapt fillable box for countries by user
+        <form>
+            <input type="text" id="insert country"><br>
+        </form>
+    -->
+        <select name="" id="select_Country">
+            <option class="select_Preview"> Select Country</option>
+            <option value="United states">United states</option>
+            <option value="Republic of costa rica">Costa Rica</option>
+            <option value="Indonesia">Indonesia</option>
+            <option value="Venezuela">Venezuela</option>
+            <option value="Panama">Panama</option>
+            <option value="Iraq">Iraq</option>
+            <option value="Israel">Israel</option>
+            <option value="Mexico City">Mexico</option>
+        </select>
+    </div>
+
+    <section class="details">   
+            
+            <p>Temperature</p>
+            <p>Weather type</p>
+            <p id="temperature"></p>
+            <p id="weather_Type"></p>
+            
+    </section>
+
+
+    <section class="all_details">
+        <p></p>
+    </section>
+
+    <section class="btn">
+        <button type="button" onclick="btn_Click()">Process</button>
+    </section>
+
+
+    <script src="page.js"></script>
+</body>
+</html>
